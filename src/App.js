@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './Navbar';
+import SideNav from './SideNav';
 import Home from './Home';
 import Bio from "./Bio";
 import Posts from './Posts';
@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
     <div>
-      <Navbar />
+      <SideNav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/posts" element={<Posts />} />
