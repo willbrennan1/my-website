@@ -53,9 +53,11 @@ body {
     padding-bottom: 20px;
 }
 
-.social {
-    padding-top: 20px;
+.my-social-icon .social-svg {
+    color: #300030;
 }
-.social:hover{
-    color:#268bd2;
+
+.my-social-icon .social-svg:hover {
+    background: white;
+    color: #268bd2
 }
